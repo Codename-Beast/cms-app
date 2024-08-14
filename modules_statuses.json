@@ -1,0 +1,7 @@
+{
+    "Post": true,
+    "Category": true,
+    "Tag": true,
+    "Shop": true,
+    "Page": true
+}

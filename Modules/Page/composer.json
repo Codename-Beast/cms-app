@@ -1,0 +1,24 @@
+{
+    "name": "codename/page",
+    "description": "",
+    "type": "laravel-module",
+    "authors": [
+        {
+            "name": "codename",
+            "email": "codename180@gmx.de"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Page\\": ""
+        }
+    }
+}

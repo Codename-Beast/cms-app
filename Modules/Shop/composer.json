@@ -1,0 +1,24 @@
+{
+    "name": "codename/shop",
+    "description": "Simple Shop System",
+    "type": "laravel-module",
+    "authors": [
+        {
+            "name": "codename",
+            "email": "codename180@gmx.de"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Shop\\": ""
+        }
+    }
+}
