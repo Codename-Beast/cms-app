@@ -1,21 +1,17 @@
-<p align="center"><img src="https://user-images.githubusercontent.com/396987/82162573-6940f500-98c7-11ea-974e-888b4f866c74.jpg" alt="Laravel Starter - A CMS like modular starter project built with the latest Laravel framework."></p>
 
-# Laravel Starter (based on Laravel 11.x)
-**Laravel Starter** is a Laravel 11.x based simple starter project. Most of the commonly needed features of an application like `Authentication`, `Authorisation`, `Users` and `Role management`, `Application Backend`, `Backup`, `Log viewer` are available here. It is modular, so you may use this project as a base and build your own modules. A module can be used in any `Laravel Starter` based project.
+# Laravel CMS (based on Laravel 11.x)
+**Laravel CMS** is a Laravel 11.x based simple CMS project. Most of the commonly needed features of an application like `Authentication`, `Authorisation`, `Users` and `Role management`, `Application Backend`, `Backup`, `Log viewer` are available here. It is modular, so you may use this project as a base and build your own modules. A module can be used in any `Laravel Starter` based project.
 Here Frontend and Backend are completely separated with separate routes, controllers, and themes as well.
 
 ***Please let me know your feedback and comments.***
 
-[![Latest Stable Version](http://poser.pugx.org/nasirkhan/laravel-starter/v)](https://packagist.org/packages/nasirkhan/laravel-starter) [![StyleCI Build](https://github.styleci.io/repos/105638882/shield?style=flat)](https://packagist.org/packages/nasirkhan/laravel-starter) [![License](http://poser.pugx.org/nasirkhan/laravel-starter/license)](https://packagist.org/packages/nasirkhan/laravel-starter) [![PHP Version Require](http://poser.pugx.org/nasirkhan/laravel-starter/require/php)](https://packagist.org/packages/nasirkhan/laravel-starter)
 
 
 # Reporting a Vulnerability
 If you discover any security-related issues, please send an e-mail to Nasir Khan Saikat via nasir8891@gmail.com instead of using the issue tracker.
 
-# Appplication Demo
-Check the following demo project. It is just a straight installation of the project without any modification.
 
-Demo URL: https://laravel.nasirkhn.com
+
 
 You may use the following account credentials to access the application backend.
 
@@ -25,25 +21,6 @@ Pass: secret
 
 User: user@user.com
 Pass: secret
-
-```
-
-## Demo Data
-If you want to test the application on your local machine with additional demo data you may use the following command.
-
-```php
-
-php artisan laravel-starter:insert-demo-data
-
-```
-
-There are options to truncate the `posts, categories, tags, and comments` tables and insert new demo data.
-
-`--fresh` option will truncate the tables, without this command a new set of data will be inserted.
-
-```php
-
-php artisan laravel-starter:insert-demo-data --fresh
 
 ```
 
@@ -143,7 +120,7 @@ It is a modular application, and some modules are installed by default. It will 
 
 ## Installation
 
-Follow the steps mentioned below to install and run the project. You may find more details about the installation in [Installation Wiki](https://github.com/nasirkhan/laravel-starter/wiki/Installation).
+
 
 1. Open the terminal and run the following command, this will download and install the `Laravel Starter` and run the post-installation commands. 
 ```bash
@@ -171,33 +148,3 @@ This project is configured with Laravel Sail (https://laravel.com/docs/sail). Yo
 6. Run the command `sail artisan migrate --seed`
 7. Link storage directory: `sail artisan storage:link`
 8. Since Sail is already up, you can just visit http://localhost:80
-
-
-# Screenshots
-
-__Home Page__
-
-![Laravel Starter Homepage Dark Mode](https://github.com/nasirkhan/laravel-starter/assets/396987/1cf5ce5a-f374-4bae-b5a3-69e8d7ff684d)
-![Laravel Starter Homepage](https://github.com/nasirkhan/laravel-starter/assets/396987/93341711-60dd-4624-8cd7-82f1c611287d)
-
-__Login Page__
-
-![Laravel Starter Login](https://user-images.githubusercontent.com/396987/164892620-3b4c8b1b-81c8-4630-a39f-38dadff89a7d.png)
-
-__Posts Page__
-
-![Laravel Starter Posts Page](https://github.com/nasirkhan/laravel-starter/assets/396987/288f56cb-0cb0-4652-be17-9f65288558bb)
-
-__Backend Dashboard__
-
-![Laravel Starter Admin Dashboard Dark Mode](https://github.com/nasirkhan/laravel-starter/assets/396987/0f6b8201-6f6a-429f-894b-4e491cc5eba4)
-![Laravel Starter Admin Dashboard](https://github.com/nasirkhan/laravel-starter/assets/396987/f8131011-2ecc-4a11-961f-85e02cb8f7a1)
-
----
-
-![Laravel Starter Posts List](https://github.com/nasirkhan/laravel-starter/assets/396987/c032769e-78b2-4dbf-bc5e-687645125796)
-
----
-
-![Edit-Posts-Laravel-Starter](https://github.com/nasirkhan/laravel-starter/assets/396987/6421b8e5-3c69-4c1f-9518-875e72be77c0)
-
